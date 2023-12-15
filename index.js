@@ -14,9 +14,7 @@ client.on("ready", () => {
 });
 
 client.on("message", async (message) => {
-  if (message.body === "!ping") {
-    client.sendMessage(message.from, "pong");
-  } else if ((message.type === "image", "video" && message.body === ".sticker")) {
+  if ((message.type === "image", "video", "gif" && message.body === ".sticker")) {
     const media = await message.downloadMedia();
 
     client.sendMessage(message.from, media, {

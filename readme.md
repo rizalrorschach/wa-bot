@@ -5,7 +5,7 @@ This is a simple WhatsApp bot built using the `whatsapp-web.js` library.
 ## Features
 
 - Responds to a "!everyone" command by mentioning all participants in a chat.
-- Create stickers from "Image" and "Video"
+- Create stickers from "Image", "Video", and "Gif"
 
 ## Setup
 
